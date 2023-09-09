@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Câmeras Analógicas</title>
+
+  <!-- Bootstrap CSS -->
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
+
+  <!-- Bootstrap JavaScript (popper.js and jquery.js required for Bootstrap 5) -->
+
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Google Fonts - Montserrat -->
+
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- Estilos Personalizados -->
+
+  <style>
+
+    body {
+
+      font-family: 'Montserrat', sans-serif;
+
+      background-color: #f5f5dc; /* Bege */
+
+      color: #333; /* Cor de texto padrão */
+
+      padding-top: 20px; /* Espaçamento entre o topo da página e o conteúdo */
+
+    }
+
+    /* Cor de fundo do cabeçalho e rodapé */
+
+    .header, .footer {
+
+      background-color: #800000; /* Vermelho Vinho */
+
+    }
+
+    /* Cor dos links */
+
+    a {
+
+      color: #d9534f; /* Vermelho */
+
+      text-decoration: none;
+
+    }
+
+    /* Cor do link quando passa o mouse */
+
+    a:hover {
+
+      color: #ff6600; /* Laranja */
+
+    }
+
+    /* Outros estilos personalizados aqui */
+
+    /* Estilos para as imagens da Canon Sure Shot, Holga 135 BC e Olympus Trip 35 */
+
+    .camera-img {
+
+      width: 6cm; /* Largura de 6cm */
+
+      height: auto;
+
+      margin: 0; /* Removido o espaçamento entre as imagens */
+
+      border: 1px solid #000; /* Borda preta */
+
+      border-radius: 5px; /* Cantos arredondados */
+
+    }
+
+    /* Estilo da divisória entre as seções */
+
+    .divider {
+
+      border-top: 1px solid #ddd; /* Borda cinza */
+
+      margin-top: 30px; /* Espaçamento entre as seções */
+
+      margin-bottom: 30px; /* Espaçamento entre as seções */
+
+    }
+
+    /* Estilo para ocultar uma seção */
+
+    .hidden {
+
+      display: none;
+
+    }
+
+    /* Espaçamento adicional entre as seções */
+
+    .section-spacing {
+
+      margin-bottom: 40px;
+
+    }
+
+    /* Imagens pequenas de contato */
+
+    .contact-img {
+
+      width: 0.5cm;
+
+      height: auto;
+
+      margin-right: 10px;
+
+    }
+
+  </style>
+
+</head>
+
+<body>
+
+  <!-- Cabeçalho -->
+
+  <header class="bg-primary text-white text-center py-4 header">
+
+    <div class="container">
+
+      <h1 class="display-4">Câmeras Analógicas</h1>
+
+      <p class="lead">Reviva o encanto da fotografia analógica.</p>
+
+      <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+
+        <div class="container-fluid">
+
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+
+            <span class="navbar-toggler-icon"></span>
+
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarNav">
+
+            <ul class="navbar-nav ml-auto">
+
+              <li class="nav-item">
+
+                <a class="nav-link" href="#" onclick="showHomePage()">Página Inicial</a>
+
+              </li>
+
+              <li class="nav-item">
+
+                <a class="nav-link" href="#" onclick="showProductsPage()">Produtos</a>
+
+              </li>
+
+              <li class="nav-item">
+
+                <a class="nav-link" href="#" onclick="showContactPage()">Contato</a>
+
+              </li>
+
+            </ul>
+
+          </div>
+
+        </div>
+
+      </nav>
+
+    </div>
+
+  </header>
+
+
+
+  <!-- Corpo da Página -->
+
+  <div class="container mt-4" id="homePage">
+
+    <!-- Seção 1 - Canon Sure Shot -->
+
+    <section>
+
+      <h2 class="text-center">Canon Sure Shot</h2>
+
+      <p class="text-center">A Canon Sure Shot é uma câmera 35mm de renome no mundo da fotografia analógica. Ela é conhecida por sua facilidade de uso e qualidade de imagem. Abaixo, você encontrará algumas fotos incríveis tiradas com a Canon Sure Shot.</p>
+
+       
+
+      <!-- Grade de Imagens -->
+
+      <div class="row">
+
+        <!-- Imagem 1 - 171x256 -->
+
+        <div class="col-6 col-md-4 col-lg-3">
+
+          <img src="https://assets.community.lomography.com/61/6b52f54780ae7b1d5deb544ee0f51e016f799a/171x256x1.jpg?auth=22d254cf8ae30f0b39a27a5306b9a0aadcab55cd" alt="Imagem 1" class="img-fluid camera-img">
+
+        </div>
+
+        <!-- Imagem 2 - 171x256 -->
+
+        <div class="col-6 col-md-4 col-lg-3">
+
+          <img src="https://assets.community.lomography.com/14/e92b74084d883ea7ef69a2ec1e901ceeb676b7/171x256x1.jpg?auth=5b44dd359d8cdada24386ca315754a485fce2acc" alt="Imagem 2" class="img-fluid camera-img">
+
+        </div>
+
+        <!-- Imagem 7 - 1216x1700 -->
+
+        <div class="col-6 col-md-4 col-lg-3">
+
+          <img src="https://assets.community.lomography.com/07/80d776101a3deb38cd2c160fe9c99f3ca3e856/1216x1700x2.jpg?auth=f6a85d9d323a3b1da7d74d6ab8530055e3a39748" alt="Imagem 7" class="img-fluid camera-img">
+
+        </div>
+
+        <!-- Imagem 6 - 173x256 -->
+
+        <div class="col-6 col-md-4 col-lg-3">
+
+          <img src="https://assets.community.lomography.com/4a/36c99475fbca90b9e0c4c1729a29bafe3f96c7/173x256x1.jpg?auth=07679bda81170e485ea2d333f5d0aeace1442f27" alt="Imagem 6" class="img-fluid camera-img">
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- Divisória entre as seções -->
+
+    <hr class="divider section-spacing">
+
+    <!-- Seção 2 - Holga 135 BC -->
+
+    <section>
+
+      <h2 class="text-center">Holga 135 BC</h2>
+
+      <p class="text-center">A Holga 135 BC é uma câmera 35mm que se destaca pelo seu efeito de vinheta, que cria um visual único nas fotografias. Confira algumas imagens capturadas com a Holga 135 BC abaixo:</p>
+
+       
+
+      <!-- Grade de Imagens -->
+
+      <div class="row">
+
+        <!-- Imagem 1 - 384x256 -->
+
+        <div class="col-6 col-md-4 col-lg-3">
+
+          <img src="https://assets.community.lomography.com/95/e38eb3f002e689669c5a2108f5fc7aa6cc7e88/384x256x1.jpg?auth=186997c4e8fdecc02572168bc89e3032286deae7" alt="Imagem 1" class="img-fluid camera-img">
+
+        </div>
+
+        <!-- Imagem 2 - 356x256 -->
+
+        <div class="col-6 col-md-4 col-lg-3">
+
+          <img src="https://assets.community.lomography.com/d4/cf0cbd7c9964573dc66694fe2af663dae7cbe3/381x256x1.jpg?auth=237261e5e89aca511fd78f300fe5377bbbe026b2" alt="Imagem 2" class="img-fluid camera-img">
+
+        </div>
+
+        <!-- Imagem 3 - 386x256 -->
+
+        <div class="col-6 col-md-4 col-lg-3">
+
+          <img src="https://assets.community.lomography.com/4a/aea3a657f0a18e0ee8d6eecff41de3bec4350d/383x256x1.jpg?auth=c3581343adeb83250432277b623b533fbb42bcf2" alt="Imagem 3" class="img-fluid camera-img">
+
+        </div>
+
+        <!-- Imagem 6 - 384x256 -->
+
+        <div class="col-6 col-md-4 col-lg-3">
+
+          <img src="https://assets.community.lomography.com/70/176743416aa8a4cde0f8c842e2adff7bae6106/384x256x1.jpg?auth=ec11dde14b34284d95032bfe23f5c1a1b3f43c95" alt="Imagem 6" class="img-fluid camera-img">
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- Divisória entre as seções -->
+
+    <hr class="divider section-spacing">
+
+    <!-- Seção 3 - Olympus Trip 35 -->
+
+    <section>
+
+      <h2 class="text-center">Olympus Trip 35</h2>
+
+      <p class="text-center">A Olympus Trip 35 é uma câmera compacta 35mm que se destacou pela sua facilidade de uso e qualidade de imagem. Confira algumas imagens capturadas com a Olympus Trip 35 abaixo:</p>
+
+       
+
+      <!-- Grade de Imagens -->
+
+      <div class="row">
+
+        <!-- Imagem 1 - 386x256 -->
+
+        <div class="col-6 col-md-4 col-lg-3">
+
+          <img src="https://assets.community.lomography.com/6d/d5a7da3332efbac524d13d26e9ac121d31838e/386x256x1.jpg?auth=81721c994d7c567266ab29a7ef0b6c6b45420aba" alt="Imagem 1" class="img-fluid camera-img">
+
+        </div>
+
+        <!-- Imagem 2 - 356x256 -->
+
+        <div class="col-6 col-md-4 col-lg-3">
+
+          <img src="https://assets.community.lomography.com/9b/d8d8e970cc5e7d4e416c8b1a5aa0f2b4b5c9b9/356x256x1.jpg?auth=bed57f6b81e7bf6271b3c42047f3111a9d03733d" alt="Imagem 2" class="img-fluid camera-img">
+
+        </div>
+
+        <!-- Imagem 7 - 173x256 -->
+
+        <div class="col-6 col-md-4 col-lg-3">
+
+          <img src="https://assets.community.lomography.com/0e/7967c14b06fe2aae8998ae25df610b89341ee6/381x256x1.jpg?auth=f9d398208b98e48ae1874062351b48566a51110b" alt="Imagem 7" class="img-fluid camera-img">
+
+        </div>
+
+        <!-- Imagem 4 - 384x256 -->
+
+        <div class="col-6 col-md-4 col-lg-3">
+
+          <img src="https://assets.community.lomography.com/51/5d5893c719d2d3e7ff85cb6faf8d60172bc2c6/384x256x1.jpg?auth=2203b30240f5e66b797ad780b599e6b6eb692524" alt="Imagem 4" class="img-fluid camera-img">
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- Espaçamento adicional -->
+
+    <div style="height: 40px;"></div>
+
+  </div>
+
+
+
+  <!-- Página de Produtos (Invisível por padrão) -->
+
+  <div class="container mt-4 hidden" id="productsPage">
+
+    <!-- Seção de Produtos -->
+
+    <section>
+
+      <h2 class="text-center">Nossos Produtos</h2>
+
+      <div class="row">
+
+        <!-- Produto 1 - Olympus Trip 35 -->
+
+        <div class="col-md-4">
+
+          <div class="card mb-4">
+
+            <img src="https://mywanderingvoyage.com/wp-content/uploads/2022/08/Feature-header-1140x681.jpg" class="card-img-top" alt="Olympus Trip 35">
+
+            <div class="card-body">
+
+              <h5 class="card-title">Olympus Trip 35</h5>
+
+              <p class="card-text">Câmera compacta 35mm com qualidade de imagem excepcional.</p>
+
+              <p class="card-text">Preço: R$ 500,00</p>
+
+              <button class="btn btn-primary">Adicionar ao Carrinho</button>
+
+              <button class="btn btn-outline-secondary">Adicionar aos Favoritos</button>
+
+            </div>
+
+          </div>
+
+        </div>
+
+        <!-- Produto 2 - Canon Sure Shot -->
+
+        <div class="col-md-4">
+
+          <div class="card mb-4">
+
+            <img src="https://i0.wp.com/casualphotophile.com/wp-content/uploads/2021/06/Canon-sure-shot-a1-13.jpg?fit=2000%2C1125&ssl=1" class="card-img-top" alt="Canon Sure Shot">
+
+            <div class="card-body">
+
+              <h5 class="card-title">Canon Sure Shot</h5>
+
+              <p class="card-text">Câmera 35mm conhecida por sua facilidade de uso.</p>
+
+              <p class="card-text">Preço: R$ 400,00</p>
+
+              <button class="btn btn-primary">Adicionar ao Carrinho</button>
+
+              <button class="btn btn-outline-secondary">Adicionar aos Favoritos</button>
+
+            </div>
+
+          </div>
+
+        </div>
+
+        <!-- Produto 3 - Holga 135 BC -->
+
+        <div class="col-md-4">
+
+          <div class="card mb-4">
+
+            <img src="https://ae01.alicdn.com/kf/H86c76274e7b848f7836605791677db2fQ/C-mera-Holga-Lomo-Kodak-135-Format-Camera-135BC-branco-prata-preto-marrom-35mm.jpg" class="card-img-top" alt="Holga 135 BC">
+
+            <div class="card-body">
+
+              <h5 class="card-title">Holga 135 BC</h5>
+
+              <p class="card-text">Câmera 35mm com efeito de vinheta para fotos únicas.</p>
+
+              <p class="card-text">Preço: R$ 300,00</p>
+
+              <button class="btn btn-primary">Adicionar ao Carrinho</button>
+
+              <button class="btn btn-outline-secondary">Adicionar aos Favoritos</button>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- Espaçamento adicional -->
+
+    <div style="height: 40px;"></div>
+
+  </div>
+
+
+
+  <!-- Página de Contato (Invisível por padrão) -->
+
+  <div class="container mt-4 hidden" id="contactPage">
+
+    <!-- Seção de Contato -->
+
+    <section>
+
+      <h2 class="text-center">Nos envie uma mensagem!</h2>
+
+      <div class="row">
+
+        <div class="col-md-6 offset-md-3">
+
+          <form>
+
+            <div class="mb-3">
+
+              <label for="nome" class="form-label">Nome</label>
+
+              <input type="text" class="form-control" id="nome" required>
+
+            </div>
+
+            <div class="mb-3">
+
+              <label for="email" class="form-label">E-mail</label>
+
+              <input type="email" class="form-control" id="email" required>
+
+            </div>
+
+            <div class="mb-3">
+
+              <label for="mensagem" class="form-label">Mensagem</label>
+
+              <textarea class="form-control" id="mensagem" rows="4" required></textarea>
+
+            </div>
+
+            <button type="submit" class="btn btn-primary">Enviar Mensagem</button>
+
+          </form>
+
+        </div>
+
+      </div>
+
+      <div class="row mt-4">
+
+        <div class="col-md-6 offset-md-3">
+
+          <h5>Entre em Contato Conosco</h5>
+
+          <p><img src="https://artpoin.com/wp-content/uploads/2023/06/whatsapp-logomarca9.png" alt="WhatsApp" class="contact-img">(78) 8765-9243</p>
+
+          <p><img src="https://assets.stickpng.com/images/584856bce0bb315b0f7675ad.png" alt="Email" class="contact-img">camerasdakatryn@ads.descomplica.com</p>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- Espaçamento adicional -->
+
+    <div style="height: 40px;"></div>
+
+  </div>
+
+
+
+  <!-- Rodapé -->
+
+  <footer class="bg-primary text-white text-center py-3 footer">
+
+    <div class="container">
+
+      <p>Todos os direitos reservados &copy; 2023</p>
+
+    </div>
+
+  </footer>
+
+
+
+  <!-- JavaScript para alternar entre as páginas -->
+
+  <script>
+
+    function showHomePage() {
+
+      document.getElementById("homePage").classList.remove("hidden");
+
+      document.getElementById("productsPage").classList.add("hidden");
+
+      document.getElementById("contactPage").classList.add("hidden");
+
+    }
+
+
+
+    function showProductsPage() {
+
+      document.getElementById("homePage").classList.add("hidden");
+
+      document.getElementById("productsPage").classList.remove("hidden");
+
+      document.getElementById("contactPage").classList.add("hidden");
+
+    }
+
+
+
+    function showContactPage() {
+
+      document.getElementById("homePage").classList.add("hidden");
+
+      document.getElementById("productsPage").classList.add("hidden");
+
+      document.getElementById("contactPage").classList.remove("hidden");
+
+    }
+
+  </script>
+
+</body>
+
+</html>
+
